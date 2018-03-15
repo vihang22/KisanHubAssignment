@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ckeeda.kisanhubassignment.SpinnerActivity">
+
+    <Spinner
+        android:id="@+id/spinner_region"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/spinner_weather"
+        android:layout_marginTop="90dp"></Spinner>
+
+    <Spinner
+        android:id="@+id/spinner_weather"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"       ></Spinner>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spinner_weather"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:text="Next" />
+
+
+
+
+</LinearLayout>
